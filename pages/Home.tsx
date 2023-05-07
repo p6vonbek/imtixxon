@@ -172,7 +172,7 @@ Show program</button></Link>
                 </div>
             </div>
             <div style={{marginTop:'30px'}}>
-            <Img src={UyBasseyn} alt="Uy4" style={{width:'100%',height:'300px',border:'3px solid white',borderRadius:'3px',}}/>  
+            <Img src={UyBasseyn} alt="Uy5" style={{width:'100%',height:'300px',border:'3px solid white',borderRadius:'3px',}}/>  
                 
             </div>
             </div>

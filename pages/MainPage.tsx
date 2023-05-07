@@ -15,7 +15,7 @@ const MainPage:NextPage=()=>{
           </div>
           <div style={{display:'flex',}}>
             <Link href={'/Home'}><button style={{border:'4px solid blue',borderRadius:'10px', color:'white',
-            width:'500px',height:'150px',backgroundColor:'blue',marginLeft:'600px',fontSize:'25px',position:'absolute',zIndex:111}}>Please click →            </button></Link>
+            width:'500px',height:'151px',backgroundColor:'blue',marginLeft:'600px',fontSize:'25px',position:'absolute',zIndex:111}}>Please click →            </button></Link>
           </div>
         </div>
         </>

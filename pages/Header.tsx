@@ -11,7 +11,7 @@ const Header:FC=()=>{
             <Link className={Styles.link}  href={'/Home'}>Home</Link>
             <Link className={Styles.link}  href={'/Houses'}>Houses</Link>
             <Link className={Styles.link}  href={'/Cottages'}>Cottages</Link>
-            <Link className={Styles.link}  href={'/HomesInfo'}>Homes info</Link>
+            <Link className={Styles.link}  href={'/HomesInfo'}>Homes Info</Link>
             <Link className={Styles.link}  href={'/Like'}>❤️</Link>
         </nav>
     </header>

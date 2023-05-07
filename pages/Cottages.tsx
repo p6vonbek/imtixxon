@@ -95,7 +95,7 @@ const Cottages:NextPage=()=>{
              </div>
              <div style={{display:'flex',marginTop:'15px'}}>
             <h1> Saturday <br />600$</h1>  
-            <h1 style={{marginLeft:'150px'}}>Sunday <br />600$</h1> 
+            <h1 style={{marginLeft:'150px'}}>Sunday <br />601$</h1> 
              </div>
             </div>  
             </div>  

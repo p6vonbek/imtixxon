@@ -17,7 +17,7 @@ const Like:NextPage=()=>{
         <>
         <Header/>
         <div>
-        <div style={{border:'4px solid palegreen',borderRadius:'10px',backgroundColor:'palegreen',marginTop:'30px'}}>
+        <div style={{border:'4px solid palegreen',borderRadius:'10px',backgroundColor:'palegreen',marginTop:'31px'}}>
             <div >
                 <div style={{display:"flex",justifyContent:'center'}}>
             <Img  src={Uy3} alt="uy rasmi" style={{width:'700px', padding:'3px',height:'560px',marginTop:'30px'}}/> 

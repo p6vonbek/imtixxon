@@ -150,7 +150,7 @@ const About:NextPage=()=>{
             </div>
             </div>
             <div>
-            <Img src={Footer} alt="Footer" style={{width:'100%',height:'450px',marginTop:'20px'}}/>    
+            <Img src={Footer} alt="Footer" style={{width:'100%',height:'452px',marginTop:'20px'}}/>    
             </div>   
         </div>
         </>
