@@ -39,7 +39,7 @@ const HomePage:NextPage=()=>{
                 </div>
         </div>
            <div>
-            <Img className="R" src={R} alt="uy rasmi" style={{width:'1500px',height:'900px',}}/>  
+            <Img className="R" src={R} alt="uy rasmi" style={{width:'100%',height:'900px',}}/>  
             
           </div>
         </div>
@@ -48,7 +48,7 @@ const HomePage:NextPage=()=>{
             <div style={{marginTop:'100px',}}>
                 <h1>Popular in the catalog</h1>
             </div>
-            <div style={{display:'flex'}}>
+            <div style={{display:'flex',justifyContent:'center'}}>
                 <div style={{marginTop:'50px', marginLeft:'50px'}}>
             <Img src={Basseyn} alt="Basseyn" style={{width:'400px',height:'400px',border:'4px solid white',borderRadius:'5px'}}/>
             <div  style={{marginTop:'10px',marginLeft:'50px'}}>
@@ -89,7 +89,7 @@ const HomePage:NextPage=()=>{
                 </div>  
                 </div>
             </div>
-            <div style={{display:'flex'}}>
+            <div style={{display:'flex',justifyContent:'center'}}>
                 <div style={{marginTop:'150px', marginLeft:'50px'}}>
             <Img src={Uy6} alt="Basseyn" style={{width:'400px',height:'400px',border:'4px solid white',borderRadius:'5px'}}/>
             <div  style={{marginTop:'10px',marginLeft:'50px'}}> 
@@ -132,7 +132,7 @@ const HomePage:NextPage=()=>{
               
             </div>
             <div> 
-                 <div  style={{marginTop:'50px',marginLeft:'690px'}}>
+                 <div  style={{marginTop:'50px',display:'flex',justifyContent:'center'}}>
                     <Link href={'/Houses'}><button 
                     style={{width:'150px',height:'60px',backgroundColor:'#F4683F',border:'4px solid #F4683F',borderRadius:"10px",color:'white'}}>Go to directory</button></Link>
                 </div>
@@ -141,7 +141,7 @@ const HomePage:NextPage=()=>{
                 <div style={{margin:'100px 0px 0px 150px'}}>
                 <h1>We can arrange for you</h1>
                 </div>
-                <div style={{display:'flex'}}>
+                <div style={{display:'flex',justifyContent:'center'}}>
                     <div style={{margin:'50px 100px 50px 150px'}}>
                         <Link href={'/HomesInfo'}><button style={{width:'200px',fontSize:'20px',height:'80px',border:'5px solid white',borderRadius:'5px',backgroundColor:'#FFFFF',boxShadow:'0px 8px 83px'}}>Catering</button></Link>
                     </div>
@@ -152,7 +152,7 @@ const HomePage:NextPage=()=>{
                         <Link href={'/HomesInfo'}><button style={{width:'200px',fontSize:'20px',height:'80px',border:'5px solid white',borderRadius:'5px',backgroundColor:'#FFFFF',boxShadow:'0px 8px 83px'}}>Buffet</button></Link>
                     </div>
                 </div>
-                <div style={{display:'flex'}}>
+                <div style={{display:'flex',justifyContent:'center'}}>
                     <div style={{margin:'50px 100px 50px  150px'}}>
                         <Link href={'/HomesInfo'}><button style={{width:'200px',fontSize:'20px',height:'80px',border:'5px solid white',borderRadius:'5px',backgroundColor:'#FFFFF',boxShadow:'0px 8px 83px'}}>
 Show program</button></Link>
@@ -165,14 +165,14 @@ Show program</button></Link>
                     </div>
                 </div>
                 <div>
-                <div  style={{marginTop:'40px',marginLeft:'630px',}}>
+                <div  style={{marginTop:'40px',display:'flex',justifyContent:'center'}}>
                     <Link href={'/Houses'}><button 
                     style={{width:'150px',height:'60px',backgroundColor:'#F4683F',border:'4px solid #F4683F',borderRadius:"10px",color:'white'}}>Learn more</button></Link>
                 </div>
                 </div>
             </div>
             <div style={{marginTop:'30px'}}>
-            <Img src={UyBasseyn} alt="Uy4" style={{width:'1500px',height:'300px',border:'3px solid white',borderRadius:'3px',}}/>  
+            <Img src={UyBasseyn} alt="Uy4" style={{width:'100%',height:'300px',border:'3px solid white',borderRadius:'3px',}}/>  
                 
             </div>
             </div>

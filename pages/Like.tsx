@@ -19,7 +19,7 @@ const Like:NextPage=()=>{
         <div>
         <div style={{border:'4px solid palegreen',borderRadius:'10px',backgroundColor:'palegreen',marginTop:'30px'}}>
             <div >
-                <div style={{display:"flex"}}>
+                <div style={{display:"flex",justifyContent:'center'}}>
             <Img  src={Uy3} alt="uy rasmi" style={{width:'700px', padding:'3px',height:'560px',marginTop:'30px'}}/> 
             <div style={{marginTop:'150px'}}>
             <div style={{display:'flex'}}>
@@ -37,7 +37,7 @@ const Like:NextPage=()=>{
             </div>
             <div style={{border:'4px solid palegoldenrod',borderRadius:'10px',backgroundColor:'palegoldenrod',marginTop:'30px'}}>
             <div >
-                <div style={{display:"flex"}}>
+                <div style={{display:"flex",justifyContent:'center'}}>
             <div style={{marginTop:'150px'}}>
             <div style={{display:'flex'}}>
             <Img  src={Oshxona} alt="YotoqXona" style={{width:'250px', marginLeft:'50px', padding:'3px',height:'250px'}}/>
@@ -56,7 +56,7 @@ const Like:NextPage=()=>{
             </div>
             <div style={{border:'4px solid royalblue',borderRadius:'10px',backgroundColor:'royalblue',marginTop:'30px'}}>
             <div >
-                <div style={{display:"flex"}}>
+                <div style={{display:"flex",justifyContent:'center'}}>
             <Img  src={Uy6} alt="uy rasmi" style={{width:'700px', padding:'3px',height:'560px',marginTop:'30px'}}/> 
             <div style={{marginTop:'150px'}}>
             <div style={{display:'flex'}}>
@@ -74,7 +74,7 @@ const Like:NextPage=()=>{
             </div>
             <div style={{border:'4px solid palegreen',borderRadius:'10px',backgroundColor:'palegreen',marginTop:'30px'}}>
             <div >
-                <div style={{display:"flex"}}>
+                <div style={{display:"flex",justifyContent:'center'}}>
             <Img  src={Uy3} alt="uy rasmi" style={{width:'700px', padding:'3px',height:'560px',marginTop:'30px'}}/> 
             <div style={{marginTop:'150px'}}>
             <div style={{display:'flex'}}>
@@ -92,7 +92,7 @@ const Like:NextPage=()=>{
             </div>
             <div style={{border:'4px solid palegoldenrod',borderRadius:'10px',backgroundColor:'palegoldenrod',marginTop:'30px'}}>
             <div >
-                <div style={{display:"flex"}}>
+                <div style={{display:"flex",justifyContent:'center'}}>
             <div style={{marginTop:'150px'}}>
             <div style={{display:'flex'}}>
             <Img  src={Oshxona} alt="YotoqXona" style={{width:'250px', marginLeft:'50px', padding:'3px',height:'250px'}}/>
@@ -111,7 +111,7 @@ const Like:NextPage=()=>{
             </div>
             <div style={{border:'4px solid royalblue',borderRadius:'10px',backgroundColor:'royalblue',marginTop:'30px'}}>
             <div >
-                <div style={{display:"flex"}}>
+                <div style={{display:"flex",justifyContent:'center'}}>
             <Img  src={Uy6} alt="uy rasmi" style={{width:'700px', padding:'3px',height:'560px',marginTop:'30px'}}/> 
             <div style={{marginTop:'150px'}}>
             <div style={{display:'flex'}}>
@@ -128,7 +128,7 @@ const Like:NextPage=()=>{
             </div>
             </div>
             <div>
-            <Img src={Footer} alt="Footer" style={{width:'1500px',height:'450px',marginTop:'20px'}}/>    
+            <Img src={Footer} alt="Footer" style={{width:'100%',height:'450px',marginTop:'20px'}}/>    
             </div> 
         </div>
         </>

@@ -12,7 +12,7 @@ const Cottages:NextPage=()=>{
         <>
         <Header/>
         <div >
-            <div style={{width:'1500px',height:'300px',border:'2px solid palegoldenrod',borderRadius:'20px',display:'flex',textAlign:'center',backgroundColor:'palegoldenrod',marginTop:'20px'}}>
+            <div style={{width:'100%',height:'300px',border:'2px solid palegoldenrod',borderRadius:'20px',display:'flex',textAlign:'center',backgroundColor:'palegoldenrod',marginTop:'20px'}}>
                 <Img src={R} alt="#" style={{width:'300px',height:'300px'}}/>
             <div style={{marginLeft:'200px',display:'flex'}}>
             <div>
@@ -25,16 +25,16 @@ const Cottages:NextPage=()=>{
             <div style={{marginLeft:'200px'}}>
                 <div style={{display:'flex'}}>
             <h1>Weekdays <br />200$</h1>  
-            <h1 style={{marginLeft:'50px'}}>Friday <br />400$</h1> 
+            <h1 style={{marginLeft:'150px'}}>Friday <br />400$</h1> 
              </div>
              <div style={{display:'flex',marginTop:'15px'}}>
             <h1> Saturday <br />600$</h1>  
-            <h1 style={{marginLeft:'50px'}}>Sunday <br />600$</h1> 
+            <h1 style={{marginLeft:'150px'}}>Sunday <br />600$</h1> 
              </div>
             </div>  
             </div>  
             </div>  
-            <div style={{width:'1500px',height:'300px',border:'2px solid palegoldenrod',borderRadius:'20px',display:'flex',textAlign:'center',backgroundColor:'palegoldenrod',marginTop:'20px'}}>
+            <div style={{width:'100%',height:'300px',border:'2px solid palegoldenrod',borderRadius:'20px',display:'flex',textAlign:'center',backgroundColor:'palegoldenrod',marginTop:'20px'}}>
                 <Img src={R} alt="#" style={{width:'300px',height:'300px'}}/>
             <div style={{marginLeft:'200px',display:'flex'}}>
             <div>
@@ -47,16 +47,16 @@ const Cottages:NextPage=()=>{
             <div style={{marginLeft:'200px'}}>
                 <div style={{display:'flex'}}>
             <h1>Weekdays <br />200$</h1>  
-            <h1 style={{marginLeft:'50px'}}>Friday <br />400$</h1> 
+            <h1 style={{marginLeft:'150px'}}>Friday <br />400$</h1> 
              </div>
              <div style={{display:'flex',marginTop:'15px'}}>
             <h1> Saturday <br />600$</h1>  
-            <h1 style={{marginLeft:'50px'}}>Sunday <br />600$</h1> 
+            <h1 style={{marginLeft:'150px'}}>Sunday <br />600$</h1> 
              </div>
             </div>  
             </div>  
             </div>  
-            <div style={{width:'1500px',height:'300px',border:'2px solid palegoldenrod',borderRadius:'20px',display:'flex',textAlign:'center',backgroundColor:'palegoldenrod',marginTop:'20px'}}>
+            <div style={{width:'100%',height:'300px',border:'2px solid palegoldenrod',borderRadius:'20px',display:'flex',textAlign:'center',backgroundColor:'palegoldenrod',marginTop:'20px'}}>
                 <Img src={R} alt="#" style={{width:'300px',height:'300px'}}/>
             <div style={{marginLeft:'200px',display:'flex'}}>
             <div>
@@ -69,16 +69,16 @@ const Cottages:NextPage=()=>{
             <div style={{marginLeft:'200px'}}>
                 <div style={{display:'flex'}}>
             <h1>Weekdays <br />200$</h1>  
-            <h1 style={{marginLeft:'50px'}}>Friday <br />400$</h1> 
+            <h1 style={{marginLeft:'150px'}}>Friday <br />400$</h1> 
              </div>
              <div style={{display:'flex',marginTop:'15px'}}>
             <h1> Saturday <br />600$</h1>  
-            <h1 style={{marginLeft:'50px'}}>Sunday <br />600$</h1> 
+            <h1 style={{marginLeft:'150px'}}>Sunday <br />600$</h1> 
              </div>
             </div>  
             </div>  
             </div> 
-            <div style={{width:'1500px',height:'300px',border:'2px solid palegoldenrod',borderRadius:'20px',display:'flex',textAlign:'center',backgroundColor:'palegoldenrod',marginTop:'20px'}}>
+            <div style={{width:'100%',height:'300px',border:'2px solid palegoldenrod',borderRadius:'20px',display:'flex',textAlign:'center',backgroundColor:'palegoldenrod',marginTop:'20px'}}>
                 <Img src={R} alt="#" style={{width:'300px',height:'300px'}}/>
             <div style={{marginLeft:'200px',display:'flex'}}>
             <div>
@@ -91,17 +91,17 @@ const Cottages:NextPage=()=>{
             <div style={{marginLeft:'200px'}}>
                 <div style={{display:'flex'}}>
             <h1>Weekdays <br />200$</h1>  
-            <h1 style={{marginLeft:'50px'}}>Friday <br />400$</h1> 
+            <h1 style={{marginLeft:'150px'}}>Friday <br />400$</h1> 
              </div>
              <div style={{display:'flex',marginTop:'15px'}}>
             <h1> Saturday <br />600$</h1>  
-            <h1 style={{marginLeft:'50px'}}>Sunday <br />600$</h1> 
+            <h1 style={{marginLeft:'150px'}}>Sunday <br />600$</h1> 
              </div>
             </div>  
             </div>  
             </div>   
             <div>
-            <Img src={Footer} alt="Footer" style={{width:'1500px',height:'450px',marginTop:'20px'}}/>    
+            <Img src={Footer} alt="Footer" style={{width:'100%',height:'450px',marginTop:'20px'}}/>    
             </div>         
         </div>
         </>

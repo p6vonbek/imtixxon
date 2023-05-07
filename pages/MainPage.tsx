@@ -10,12 +10,12 @@ const MainPage:NextPage=()=>{
         
         <div>
         <div  >
-            <Img className="R" src={R} alt="uy rasmi" style={{width:'1500px',height:'900px'}}/>  
+            <Img className="R" src={R} alt="uy rasmi" style={{width:'100%',height:'900px'}}/>  
             
           </div>
-          <div>
+          <div style={{display:'flex',}}>
             <Link href={'/Home'}><button style={{border:'4px solid blue',borderRadius:'10px', color:'white',
-            width:'500px',height:'150px',backgroundColor:'blue',marginLeft:'500px',fontSize:'25px',position:'absolute',zIndex:111}}>Please click →            </button></Link>
+            width:'500px',height:'150px',backgroundColor:'blue',marginLeft:'600px',fontSize:'25px',position:'absolute',zIndex:111}}>Please click →            </button></Link>
           </div>
         </div>
         </>
