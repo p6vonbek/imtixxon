@@ -74,7 +74,7 @@ const HomePage:NextPage=()=>{
                 </div>  
                 </div>
                 <div style={{marginTop:'50px',marginLeft:'100px'}}>
-            <Img src={UyCha} alt="Basseyn" style={{width:'400px',height:'400px',border:'4px solid white',borderRadius:'5px'}}/>
+            <Img className="img" src={UyCha} alt="Basseyn" style={{width:'400px',height:'400px',border:'4px solid white',borderRadius:'5px'}}/>
             <div  style={{marginTop:'10px',marginLeft:'50px'}}>  
             <div style={{display:'flex'}}>
             <h3>Home information on the pass  ↓</h3>
