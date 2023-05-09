@@ -1,17 +1,15 @@
 import { NextPage } from "next";
-import Header from './Header'
+import Header from './Header';
 import Img from "next/image";
 import R from '../public/rasmlar/R.jpg';
 import Basseyn from '../public/rasmlar/uy5.jpg';
 import UyCha from '../public/rasmlar/uy3.jpg';
 import Uy4 from '../public/rasmlar/uy4.jpg';
-import Uy6 from '../public/rasmlar/uy6.jpg'
-import Uy7 from '../public/rasmlar/uy7.jpg'
-import Uy8 from '../public/rasmlar/uy8.jpg'
-import UyBasseyn from '../public/rasmlar/footer 1400.jpg'
+import Uy6 from '../public/rasmlar/uy6.jpg';
+import Uy7 from '../public/rasmlar/uy7.jpg';
+import Uy8 from '../public/rasmlar/uy8.jpg';
+import UyBasseyn from '../public/rasmlar/footer 1400.jpg';
 import Link from "next/link";
-
-
 
 const HomePage:NextPage=()=>{
     return(
@@ -176,6 +174,7 @@ Show program</button></Link>
                 
             </div>
             </div>
+
         </header>
     )
 }
