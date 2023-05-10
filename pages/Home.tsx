@@ -28,10 +28,10 @@ const HomePage:NextPage=()=>{
             <Img className={Yordam.ber} src={Basseyn} alt="Basseyn" style={{border:'3px solid white',borderRadius:'3px',marginLeft:'-300px'}}/>
                         </div>
                         <div>
-            <Img className={Yordam.ber} src={UyCha} alt="UyCha" style={{border:'3px solid white',borderRadius:'3px' ,marginLeft:'-50px'}}/>  
+            <Img className={Yordam.ber1} src={UyCha} alt="UyCha" style={{border:'3px solid white',borderRadius:'3px' ,marginLeft:'-50px'}}/>  
                         </div>
                         <div>
-            <Img className={Yordam.ber} src={Uy4} alt="Uy4" style={{border:'3px solid white',borderRadius:'3px',marginLeft:'60px'}}/>  
+            <Img className={Yordam.ber2} src={Uy4} alt="Uy4" style={{border:'3px solid white',borderRadius:'3px',marginLeft:'50px'}}/>  
                         </div>
                     </div>
                 </div>
@@ -103,7 +103,7 @@ const HomePage:NextPage=()=>{
                 </div>  
                 </div>
                 <div style={{marginTop:'150px',marginLeft:'100px'}}>
-            <Img className={Yordam.img} src={Uy7} alt="Basseyn" style={{border:'4px solid white',borderRadius:'5px'}}/>
+            <Img className={Yordam.img1} src={Uy7} alt="Basseyn" style={{border:'4px solid white',borderRadius:'5px'}}/>
             <div  style={{marginTop:'10px',marginLeft:'50px'}}> 
             <div style={{display:'flex'}}>
             <h3>Home information on the pass  ↓</h3>
@@ -116,7 +116,7 @@ const HomePage:NextPage=()=>{
                 </div>  
                 </div>
                 <div style={{marginTop:'150px',marginLeft:'100px'}}>
-            <Img className={Yordam.img} src={Uy8} alt="Basseyn" style={{border:'4px solid white',borderRadius:'5px'}}/>
+            <Img className={Yordam.img2} src={Uy8} alt="Basseyn"/>
             <div  style={{marginTop:'10px',marginLeft:'50px'}}>
                 <div style={{display:'flex'}}>
                 <h3 >Home information on the pass  ↓</h3>
@@ -173,7 +173,7 @@ Show program</button></Link>
             <div style={{marginTop:'31px'}}>
             <div> 
                 <div>
-                    <Img src={UyBasseyn} alt="uy" style={{width:'100%',height:'500px'}}/>
+                    <Img src={UyBasseyn} alt="uy" style={{width:'100%',height:'300px'}}/>
                 </div>
           
           </div>                 

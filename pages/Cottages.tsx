@@ -101,7 +101,7 @@ const Cottages:NextPage=()=>{
             </div>  
             </div>   
             <div>
-                    <Img src={Footer} alt="uy" style={{width:'100%',height:'500px'}}/>
+                    <Img src={Footer} alt="uy" style={{width:'100%',height:'300px'}}/>
                 </div>       
         </div>
         </>
