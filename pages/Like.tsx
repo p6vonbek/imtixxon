@@ -127,25 +127,9 @@ const Like:NextPage=()=>{
             </div>
             </div>
             </div>
-            <div> 
-            <div style={{display:'flex',justifyContent:'space-evenly', color:'black',fontSize:'20px',backgroundColor:'rgb(909, 230, 241)',boxShadow:'0px 1px 55px 8px',width:'100%',height:'300px',paddingTop:'100px'}}>
-                <div>
-                    <h1>oddiy sayt</h1>
-                    <h3>uylar</h3>
-                    <h3>katejlar</h3>
-                    <h3>uy jihozlari</h3>
+            <div>
+                    <Img src={Footer} alt="uy" style={{width:'100%',height:'500px'}}/>
                 </div>
-                <div>
-                    <h3>telefon nomerlar:</h3>
-                    <h3>telefon nomerlar:</h3>                    
-                </div>
-                <div>
-                    <h2>+998 97 777 77 77</h2>
-                    <h2>+998 90 777 77 77</h2>
-                </div>
-            </div>
-          
-          </div>
         </div>
         </>
     )

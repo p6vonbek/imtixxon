@@ -14,7 +14,7 @@ return(
             <div style={{display:'flex',}}>
             <button style={{fontSize:'25px',textAlign:"center",border:'3px solid blue',backgroundColor:'blue',borderRadius:'10px',marginBottom:'200px', marginLeft:'650px',marginTop:'50px',width:'250px',height:'80px'}}>login</button><br />
             <Link href={'/Login/Sigin'}>
-            <button style={{fontSize:'25px',textAlign:"center",border:'3px solid blue',backgroundColor:'blue',borderRadius:'9px',marginBottom:'200px', marginLeft:'80px',marginTop:'50px',width:'250px',height:'80px'}}>Sigin up</button><br />
+            <button style={{fontSize:'25px',textAlign:"center",border:'3px solid blue',backgroundColor:'blue',borderRadius:'10px',marginBottom:'200px', marginLeft:'80px',marginTop:'50px',width:'250px',height:'80px'}}>Sigin up</button><br />
             </Link>
 
             </div>
