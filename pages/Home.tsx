@@ -170,7 +170,7 @@ Show program</button></Link>
                 </div>
                 </div>
             </div>
-            <div style={{marginTop:'30px'}}>
+            <div style={{marginTop:'31px'}}>
             <div> 
             <div style={{display:'flex',justifyContent:'space-evenly', color:'black',fontSize:'20px',backgroundColor:'rgb(909, 230, 241)',boxShadow:'0px 1px 55px 8px',width:'100%',height:'300px',paddingTop:'100px'}}>
                 <div>

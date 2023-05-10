@@ -15,7 +15,7 @@ const HomesInfo:NextPage=()=>{
                 <h1 style={{fontSize:'30px'}}>Kechirasiz hech qanday malumot topilmadi.</h1>
             <Img src={Error} alt="error" style={{width:'700px',height:'401px',}}/>
             <div>
-            <Link href={'/Home'}><button style={{width:'200px',height:'70px',border:'4px solid blue',borderRadius:'10px',backgroundColor:'blue',fontSize:'20px',color:'white',marginTop:'30px'}}>Back →</button></Link>
+            <Link href={'/Home'}><button style={{width:'200px',height:'71px',border:'4px solid blue',borderRadius:'10px',backgroundColor:'blue',fontSize:'20px',color:'white',marginTop:'30px'}}>Back →</button></Link>
             </div>
         </div>
         </div>

@@ -124,7 +124,7 @@ const About:NextPage=()=>{
              </div>
             </div>
             </div>
-            <div style={{border:'4px solid royalblue',borderRadius:'10px',backgroundColor:'royalblue',marginTop:'30px'}}>
+            <div style={{border:'5px solid royalblue',borderRadius:'10px',backgroundColor:'royalblue',marginTop:'30px'}}>
             <div >
                 <div style={{display:"flex",justifyContent:'center'}}>
             <Img  src={Uy6} alt="uy rasmi" style={{width:'700px', padding:'3px',height:'560px',marginTop:'30px'}}/> 
