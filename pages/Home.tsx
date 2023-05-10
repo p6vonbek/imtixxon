@@ -10,6 +10,7 @@ import Uy7 from '../public/rasmlar/uy7.jpg';
 import Uy8 from '../public/rasmlar/uy8.jpg';
 import UyBasseyn from '../public/rasmlar/footer 1400.jpg';
 import Link from "next/link";
+import Yordam from '../styles/yordam.module.css'
 
 const HomePage:NextPage=()=>{
     return(
@@ -24,13 +25,13 @@ const HomePage:NextPage=()=>{
                     <h2 style={{position:'absolute',zIndex:12,marginTop:'390px',marginLeft:'-130px'}}>We are happy with your visit</h2>
                     <div style={{display:'flex',position:'absolute',zIndex:12,marginTop:'450px'}}>
                         <div>
-            <Img src={Basseyn} alt="Basseyn" style={{width:'100px',height:'100px',border:'3px solid white',borderRadius:'3px',marginLeft:'-300px'}}/>
+            <Img className={Yordam.ber} src={Basseyn} alt="Basseyn" style={{border:'3px solid white',borderRadius:'3px',marginLeft:'-300px'}}/>
                         </div>
                         <div>
-            <Img src={UyCha} alt="UyCha" style={{width:'100px',height:'100px',border:'3px solid white',borderRadius:'3px' ,marginLeft:'-60px'}}/>  
+            <Img className={Yordam.ber1} src={UyCha} alt="UyCha" style={{border:'3px solid white',borderRadius:'3px' ,marginLeft:'-60px'}}/>  
                         </div>
                         <div>
-            <Img src={Uy4} alt="Uy4" style={{width:'100px',height:'100px',border:'3px solid white',borderRadius:'3px',marginLeft:'30px'}}/>  
+            <Img className={Yordam.ber} src={Uy4} alt="Uy4" style={{border:'3px solid white',borderRadius:'3px',marginLeft:'30px'}}/>  
                         </div>
                     </div>
                 </div>
@@ -48,7 +49,7 @@ const HomePage:NextPage=()=>{
             </div>
             <div style={{display:'flex',justifyContent:'center'}}>
                 <div style={{marginTop:'50px', marginLeft:'50px'}}>
-            <Img src={Basseyn} alt="Basseyn" style={{width:'400px',height:'400px',border:'4px solid white',borderRadius:'5px'}}/>
+            <Img className={Yordam.img} src={Basseyn} alt="Basseyn" style={{border:'4px solid white',borderRadius:'5px'}}/>
             <div  style={{marginTop:'10px',marginLeft:'50px'}}>
                 <div style={{display:'flex'}}>
                 <h3>Home information on the pass  ↓</h3>
@@ -61,7 +62,7 @@ const HomePage:NextPage=()=>{
                 </div>  
                 </div>
                 <div style={{marginTop:'50px',marginLeft:'100px'}}>
-            <Img src={Uy4} alt="Basseyn" style={{width:'400px',height:'400px',border:'4px solid white',borderRadius:'5px'}}/>
+            <Img className={Yordam.img1} src={Uy4} alt="Basseyn" style={{border:'4px solid white',borderRadius:'5px'}}/>
             <div  style={{marginTop:'10px',marginLeft:'50px'}}> 
             <div style={{display:'flex'}}>
             <h3>Home information on the pass  ↓</h3>
@@ -74,7 +75,7 @@ const HomePage:NextPage=()=>{
                 </div>  
                 </div>
                 <div style={{marginTop:'50px',marginLeft:'100px'}}>
-            <Img className="img" src={UyCha} alt="Basseyn" style={{width:'400px',height:'400px',border:'4px solid white',borderRadius:'5px'}}/>
+            <Img className={Yordam.img2} src={UyCha} alt="Basseyn" style={{border:'4px solid white',borderRadius:'5px'}}/>
             <div  style={{marginTop:'10px',marginLeft:'50px'}}>  
             <div style={{display:'flex'}}>
             <h3>Home information on the pass  ↓</h3>
@@ -89,7 +90,7 @@ const HomePage:NextPage=()=>{
             </div>
             <div style={{display:'flex',justifyContent:'center'}}>
                 <div style={{marginTop:'150px', marginLeft:'50px'}}>
-            <Img src={Uy6} alt="Basseyn" style={{width:'400px',height:'400px',border:'4px solid white',borderRadius:'5px'}}/>
+            <Img className={Yordam.img} src={Uy6} alt="Basseyn" style={{border:'4px solid white',borderRadius:'5px'}}/>
             <div  style={{marginTop:'10px',marginLeft:'50px'}}> 
             <div style={{display:'flex'}}>
             <h3>Home information on the pass  ↓</h3>
@@ -102,7 +103,7 @@ const HomePage:NextPage=()=>{
                 </div>  
                 </div>
                 <div style={{marginTop:'150px',marginLeft:'100px'}}>
-            <Img src={Uy7} alt="Basseyn" style={{width:'400px',height:'400px',border:'4px solid white',borderRadius:'5px'}}/>
+            <Img className={Yordam.img1} src={Uy7} alt="Basseyn" style={{border:'4px solid white',borderRadius:'5px'}}/>
             <div  style={{marginTop:'10px',marginLeft:'50px'}}> 
             <div style={{display:'flex'}}>
             <h3>Home information on the pass  ↓</h3>
@@ -115,7 +116,7 @@ const HomePage:NextPage=()=>{
                 </div>  
                 </div>
                 <div style={{marginTop:'150px',marginLeft:'100px'}}>
-            <Img src={Uy8} alt="Basseyn" style={{width:'400px',height:'400px',border:'4px solid white',borderRadius:'5px'}}/>
+            <Img className={Yordam.img2} src={Uy8} alt="Basseyn" style={{border:'4px solid white',borderRadius:'5px'}}/>
             <div  style={{marginTop:'10px',marginLeft:'50px'}}>
                 <div style={{display:'flex'}}>
                 <h3 >Home information on the pass  ↓</h3>
@@ -170,8 +171,25 @@ Show program</button></Link>
                 </div>
             </div>
             <div style={{marginTop:'30px'}}>
-            <Img src={UyBasseyn} alt="Uy5" style={{width:'100%',height:'300px',border:'3px solid white',borderRadius:'3px',}}/>  
-                
+            <div> 
+            <div style={{display:'flex',justifyContent:'space-evenly', color:'black',fontSize:'20px',backgroundColor:'rgb(909, 230, 241)',boxShadow:'0px 1px 55px 8px',width:'100%',height:'300px',paddingTop:'100px'}}>
+                <div>
+                    <h1>oddiy sayt</h1>
+                    <h3>uylar</h3>
+                    <h3>katejlar</h3>
+                    <h3>uy jihozlari</h3>
+                </div>
+                <div>
+                    <h3>telefon nomerlar:</h3>
+                    <h3>telefon nomerlar:</h3>                    
+                </div>
+                <div>
+                    <h2>+998 97 777 77 77</h2>
+                    <h2>+998 90 777 77 77</h2>
+                </div>
+            </div>
+          
+          </div>                 
             </div>
             </div>
 

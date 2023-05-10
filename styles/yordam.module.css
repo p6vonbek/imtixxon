@@ -1,0 +1,94 @@
+.img:hover{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    z-index: 30;
+    
+}
+.img{
+    width: 400px;
+    height: 400px;
+}
+.img1:hover{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    z-index: 30;
+    margin-left: -150px;
+    
+}
+.img1{
+    width: 400px;
+    height: 400px;
+}
+.img2:hover{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    z-index: 30;
+    margin-left: -300px;
+    
+}
+.img2{
+    width: 400px;
+    height: 400px;
+}
+.ber:hover{
+width: 200px;
+height: 200px;
+position: absolute;
+z-index: 30;
+
+}
+.ber{
+    width: 100px;
+    height: 100px;
+}
+.ber1:hover{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 30;
+    margin-left:-150px;
+    
+    }
+    .ber1{
+        width: 100px;
+        height: 100px;
+    }
+    .ber2:hover{
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        z-index: 30;
+        margin-left:100px;
+        
+        }
+        .ber2{
+            width: 100px;
+            height: 100px;
+        }
+        .img3:hover{
+            width: 450px;
+            height: 450px;
+            position: absolute;
+            z-index: 30;
+            margin-left: -150px;
+            
+        }
+        .img3{
+            width: 250px;
+            height:250px;
+        }
+        .img4:hover{
+            width: 450px;
+            height: 450px;
+            position: absolute;
+            z-index: 30;
+            margin-left: -150px;
+            
+        }
+        .img4{
+            width: 250px;
+            height:250px;
+        }

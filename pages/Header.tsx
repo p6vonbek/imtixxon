@@ -13,7 +13,7 @@ const Header:FC=()=>{
             <Link className={Styles.link}  href={'/Cottages'}>Cottages</Link>
             <Link className={Styles.link}  href={'/HomesInfo'}>Homes Info</Link>
             <Link className={Styles.link}  href={'/Like'}>❤️</Link>
-            <Link className={Styles.link}  href={'/Login'}>Login</Link>
+            <Link className={Styles.link}  href={'./Login/Login'}>Login</Link>
         </nav>
     </header>
 }
