@@ -1,3 +1,4 @@
+import Data from './Data'
 import { NextPage } from "next";
 import Header from './Header';
 import Img from "next/image";
@@ -130,6 +131,7 @@ const HomePage:NextPage=()=>{
                 </div>
               
             </div>
+            <Data/>
             <div> 
                  <div  style={{marginTop:'50px',display:'flex',justifyContent:'center'}}>
                     <Link href={'/Houses'}><button 
